@@ -4,6 +4,7 @@ var getDataHandler= (err, content)=>{
 	if (err) return console.log(err);
 	return console.log(content);
 }
+
 fs.readFile("README.md" , "utf-8", getDataHandler);
 
 console.log('end of the file')  

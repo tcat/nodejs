@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/tcat/nodejs#readme",
   "dependencies": {
+    "async": "^2.1.5",
     "lodash": "^4.17.4"
   }
 }
