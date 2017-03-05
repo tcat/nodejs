@@ -30,7 +30,8 @@ app.use((err, req, resp, next) => {
   		resp.status(500).send('Something was broken!');
   	}
 })
-const userRouter = require("../routes/usersRouter")(app);
+
+require("../routes/usersRouter")(app);
 
 app.get('/', function(req, resp){
 		resp.render("home", resp);
