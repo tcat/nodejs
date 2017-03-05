@@ -32,6 +32,7 @@ app.use((err, req, resp, next) => {
 })
 
 require("../routes/usersRouter")(app);
+require("../routes/weatherRouter")(app);
 
 app.get('/', function(req, resp){
 		resp.render("home", resp);
